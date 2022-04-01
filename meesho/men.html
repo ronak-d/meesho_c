@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mens's page</title>
+    <link rel="stylesheet" href="/css/mens.css">
+</head>
+<body>
+    <div id="nav">
+
+    </div>
+    
+    <p id="page_head">Mens's Tshirts</p>
+    <p id="page_head">showing 12 tshirts</p>
+
+    <div id="man_body">
+    </div>
+    
+    <div id="foot">
+        
+    </div>
+    <script src="/scripts/men.js"></script>
+</body>
+</html>
+<script type="module">
+
+// importing header
+
+import navbar from "./components/navbar.js"
+
+let uppernav = document.getElementById("nav");
+
+uppernav.innerHTML = navbar();
+
+// importing footer
+
+import footer from "./components/footer.js"
+
+let lowernav = document.getElementById("foot");
+
+lowernav.innerHTML = footer();
+
+
+</script>

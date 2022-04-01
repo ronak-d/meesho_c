@@ -1,0 +1,547 @@
+    #women_products{
+        /* border: 3px solid black; */
+        width: 97%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 10px;
+        grid-gap: 20px;
+        /* grid-template-rows: repeat(4, 500px); */
+    }
+    
+    #main_div_prod{
+        font-family: "Mier book";
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    /* image */
+    #img_prop{
+        width: 100%;
+        height: 270px;
+        /* border: 2px solid black; */
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    #type_prop{
+        /* border-top: 2px solid black; */
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 10px;
+        font-family: "Mier book";
+        padding: 10px 0px 15px 5px;
+        margin: 0;
+        margin-left: 10px;
+        /* display: flex-wrap; */
+    }
+    
+    #div3_prop{
+        display: flex;
+        /* border: 1px solid black; */
+        margin: 0px;
+        margin-left: 10px;
+    }
+    
+    #rate_prop, #preprice_prop, #off_prop{
+        padding-right: 10px;
+        padding-left: 4px;
+    }
+    
+    #rate_prop{
+        font-family: "Mier book";
+        font-size: 20px;
+        font-weight:550;
+    }
+    
+    #off_prop{
+        font-size: 16px;
+        font-weight: 600;
+        color: rgb(3, 141, 99);
+        font-family: "Mier demi";
+        padding-top: 7px;
+    }
+    
+    #discount_prop{
+        color: rgb(102, 102, 102);
+        font-family: "Mier book";
+        font-weight: 400;
+        margin: 0;
+        margin-left: 10px;
+    }
+    
+    #preprice_prop{
+        text-decoration: line-through;
+        color: rgb(153, 153, 153);
+        padding-top: 7px;
+    
+    }
+    
+    #div4_prop{
+        /* border: 2px solid black; */
+        /* padding-left: 10px 5px 4px 0px; */
+        margin-top: 10px;
+    }
+    
+    #free_prop{
+        /* border: 2px solid black; */
+        padding: 5px;
+        border-radius:45%;
+        display: inline-block;
+        background-color: rgb(255, 255, 255);
+        font-family: "Mier book";
+        margin: 0;
+        padding-top: 14px;
+        margin-left: 10px;
+    }
+    
+    #div6_prop{
+        /* border: 2px solid black; */
+        margin-top: 10px;
+        display: flex;
+        padding:0;
+        margin-bottom: 10px;
+    
+    }
+    #rating_prop{
+        /* border: 1px solid black; */
+        color: white;
+        font-weight: 200;
+        border-radius:40%;
+        background-color: rgb(3, 141, 99);
+        padding: 5px;
+        padding-top: 0;
+        margin: 0;
+        margin-right: 16px;
+        margin-left: 10px;
+    }
+    
+    #review_prop{
+        /* border: solid; */
+        padding: 2px;
+        margin: 0;
+    }
+    /* clothes css ends hereree line 103 to 222 */
+    
+
+/* header css  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+#nav-container{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 100;
+}
+#upper-nav{
+    width: 100%;
+    height: 75px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#lower-nav{
+    width: 100%;
+    height: 65px;
+    border: 1px solid black;
+    position: sticky;
+    top: 0px;
+}
+#left-upper-nav{
+    display: flex;
+    width: 43%;
+    height: 100%;
+    
+}
+#logo{
+    
+    width: 30%;
+    height: 100%;
+    margin-left: 10px;
+}
+.Iconlogo{
+    margin-top:15px ;
+}
+#searchbar{
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 78%;
+    width: 70%;
+    margin-top: 7px;
+    display: flex;
+}
+.searchIcon{
+    width: 22px;
+    height: 22px;
+    margin-top: 15px ;
+    margin-left: 5px;
+}
+#searchbox{
+    color: grey;
+    font-size: 16px;
+    font-weight: book;
+    width: 85%;
+    height: 100%;
+    margin-top: 0px;
+    outline: 0;
+    border: none;
+    margin-left: 10px;
+   
+
+}
+.cleansearchBar{
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    display: none;
+}
+
+#right-upper-nav{
+    width: 42%;
+    height: 100%;
+  
+    display: flex;
+}
+#right-upper-nav>div{
+   
+    width:33.5% ;
+    height: 100%;
+}
+#downloadApp{
+    display: flex;
+    flex-direction: column;
+}
+#content{
+    display: flex;
+   
+    
+   
+}
+.Iconmobile{
+    width: 20px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#content>span{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #333333;
+   
+}
+.dropdown{
+    width: 100%;
+    display: flex;
+}
+.dropDown-downloadApp{
+    width: 200px;
+    height: 200px;
+ 
+    
+    margin-top: 27px;
+   display: none;
+   border-radius: 5px;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.dropDown-profile{
+    width: 350px;
+    height: 200px;
+
+    margin-left: 0%;
+    display: none;
+
+    margin-right: 30px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+#span{
+    
+    margin-left: 10px;
+    color: #333333;
+    margin-top: 20px;
+    
+    padding-left:13px ;
+    font-size: 16px;
+
+}
+#right-upper-nav>hr{
+   height: 40px;
+   margin-top: 15px;
+}
+#downloadApp>ul>li:hover>div:nth-child(2){
+    display: block;
+    z-index: 9;
+    position: absolute;
+
+
+
+}
+#downloadApp:hover{
+    border-bottom: 5px solid #f43397;
+    
+}
+#profile-cart{
+    display: flex;
+
+}
+#profile-cart>div{
+    margin-top: 10px;
+    
+    width: 50%;
+    height: 100%;
+}
+.profileicon{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.Iconprofile{
+    width: 20px;
+    height: 20px;
+    margin-left: 33px;
+    margin-top: 5px;
+
+}
+.profileicon>span{
+    margin-left: 22px;
+    margin-top: -1px;
+    color: #333333;
+}
+#cart-section>.profileicon>span{
+    margin-left:25px ;
+    margin-top: -3px;
+    color: #333333;
+}
+#cart-section>.profileicon>.profileicon{
+    width: 25px ;
+    height: 20px;
+    
+}
+
+#profile-section>ul>li:hover>div:nth-child(2){
+    display: block;
+    z-index: 9;
+    position: absolute;
+
+
+}
+.profileicon1:hover{
+    padding-bottom: 7px;
+    border-bottom: 4px solid #f43397;
+}
+.dropDown-downloadApp>p{
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.dropDown-downloadApp>.googlepalyImage{
+    width: 170px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+/*megamenu*/
+.containerNav{
+    position: sticky;
+    top: 73x;
+  
+    background-color: white;
+    height: 60px;
+   
+}
+.nav-bar{
+    width: 100%;
+    background-color: white;
+   
+    padding: 7px 0;
+    box-sizing: border-box;
+  
+    display: flex;
+    border-bottom:1px solid black ;
+}
+.nav-bar ul{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    list-style: none;
+    letter-spacing: 1px ;
+    position: relative;
+    margin-top: 10px;
+    
+    
+}
+.nav-bar ul li{
+    
+    text-align: center;
+    display: inline-block;
+    margin-left: 24px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    padding-bottom: 21px;
+   
+}
+ul> li:nth-child(1){
+    margin-left: 10px;
+}
+.nav-bar ul li:hover{
+    color: #f43397;
+    border-bottom: 3px solid  #f43397;
+}
+
+.mega-menu{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 99%;
+    margin: auto;
+    height: auto;
+    background-color: white;
+    transition: all 0.4s ease;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    box-shadow: 0 0 5px #888;
+    display: none;
+    margin-left: 10px;
+}
+.inner-mega-menu{
+    width: auto;
+    margin-left: 10px;
+    text-align: left;
+    padding-right: 20px;
+    height: auto;
+   
+}
+.mega-menu>.inner-mega-menu:nth-child(2n){
+    width: auto;
+    margin-left: 10px;
+    background-color: whitesmoke;
+   
+}
+.inner-mega-menu p{
+    margin-left: 15px;
+    transition: all 0.4s ease;
+    margin-bottom: 10px;
+   
+
+
+   
+}
+.inner-mega-menu p a{
+    color:#515355;
+    margin-top: -1px;
+    font-size: 16px;
+}
+.inner-mega-menu p:nth-child(1){
+    margin-bottom: 25px;
+    color:#f43397;
+   
+}
+
+.nav-bar ul li:hover .mega-menu{
+    display: flex;
+    z-index: 9;
+     margin-bottom: 0px; 
+}
+/* header css ends here */
+
+
+/* /footer css begins here */
+#f_main_box{
+    /* border: 2px solid red; */
+    padding: 10px;
+    display: flex;
+    width: 97%;
+    margin: auto;
+    color: rgb(102, 102, 102);
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    
+}
+#f_img{
+    width: 170px;
+    height: 45px;
+    padding-top: 5px;
+    padding-right: 10px;
+
+}
+#f_download{
+    display: flex;
+    width: 100%;
+    height: 48px;
+    padding-right:14px;
+    justify-content: space-between;
+
+}
+#f_diff_1{
+    font-size: 26px;
+    color: rgb(51, 51, 51);
+    line-height: 40px;
+    font-weight: 700;
+    
+
+}
+#f_head_text{
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+}
+#f_address{
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+#f_diff{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    font-size: 16px;
+}
+.f_box_0{
+    flex:2;
+    /* border: 2px solid red; */
+    color: rgb(102, 102, 102);
+    margin-right: 10px;
+}
+.f_box_1{
+    flex: 1.25;
+    /* border: 2px solid red; */
+    margin-right: 16px;
+
+
+}
+.f_box_2{
+    flex: 1.25;
+    /* border: 2px solid red; */
+    margin-right: 10px;
+}
+.f_box_3{
+    flex: 1.25;
+    /* border: 2px solid red; */
+    margin-right: 10px;
+}
+.f_box_4{
+    flex: 1.5;
+    /* border: 2px solid red; */
+    margin-right: 10px;
+}
+
+#f_download{
+    width: 100%;
+    /* border: 2px solid black; */
+}
