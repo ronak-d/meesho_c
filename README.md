@@ -12,14 +12,11 @@ As a part of Unit-3 Construct Week Project. I as an Individually have cloned Nor
 * Bootstrap
   
 ## Core Functionalities
-* Login/Signup
 * home page
 * Product Page
 * Add to cart
 * Checkout
 * Payment
-* Filters
-* Sorting
 
 # Quick Tour to our Project
 1. This is the landing page of our website.
