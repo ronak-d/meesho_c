@@ -16,7 +16,6 @@ As a part of Unit-3 Construct Week Project. I as an Individually have cloned Nor
 * Product Page
 * Add to cart
 * Checkout
-* Payment
 
 # Quick Tour to our Project
 1. This is the landing page of our website.
